@@ -14,7 +14,7 @@ function About() {
         <div>
           <div className=" bg-slate-700 rounded-3xl align-middle text-center mx-52 mb-10">
             <p className="text-xl p-28">
-              Hi, i am Jhon Jader Lopez , i am a software developer....
+              Hi, i am Jhon Jader Lopez , i am a software developer and a great personal trainer....
             </p>
           </div>
         </div>
