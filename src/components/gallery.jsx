@@ -1,7 +1,4 @@
 import React from "react";
-import img1 from "../imgs/img1.jpg";
-import img2 from "../imgs/img2.jpg";
-import img3 from "../imgs/img3.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cube";

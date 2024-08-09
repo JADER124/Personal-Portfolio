@@ -1,5 +1,4 @@
 import React from "react";
-import prueba from "../imgs/img1.jpg";
 import CV from "../utils/files/CV.pdf"
 
 function About() {
