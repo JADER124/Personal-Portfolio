@@ -1,4 +1,6 @@
 import React from "react";
+import { FaInstagram,FaFacebook,FaGithub} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 function Contact() {
   return (
     <div>
@@ -26,7 +28,9 @@ function Contact() {
           <div className="mx-[575px] p-1 bg-orange-400 rounded-lg ">
             <ul className="flex gap-1 justify-between ">
               <li>
-                <div className="rounded-full bg-green-400 p-6"></div>
+                <div className="rounded-full bg-green-400 p-6">
+                <FaXTwitter className="w-10"/>
+                </div>
               </li>
               <li>
                 <div className="rounded-full bg-green-400 p-6"></div>

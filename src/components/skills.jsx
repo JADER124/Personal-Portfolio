@@ -1,6 +1,6 @@
 import React from "react";
 import { IoLogoJavascript } from "react-icons/io5";
-import { FaReact,FaNodeJs } from "react-icons/fa";
+import { FaReact,FaNodeJs ,FaGitAlt} from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 
@@ -16,7 +16,7 @@ function Skills() {
           </div>
         </div>
         <div className="mb-10">
-          <div className="mx-96 p-7 bg-white rounded-lg ">
+          <div className="mx-72 p-7 bg-white rounded-lg ">
             <ul className="flex gap-10 justify-between mx-10">
               <li>
                 <div className="rounded-full bg-black p-6 shadow-lg shadow-yellow-500">
@@ -43,14 +43,18 @@ function Skills() {
                 <SiTypescript className="size-12" />
                 </div>
               </li>
+              <li>
+                <div className="rounded-full bg-black p-6 shadow-lg shadow-red-400">
+                <FaGitAlt className="size-12" />
+                </div>
+              </li>
             </ul>
           </div>
         </div>
         <div>
           <div>
-            <div className="grid grid-cols-3 mx-20 gap-10 mb-10">
-              <div className="bg-red-400 rounded-lg">
-                <div className="my-10 mx-10 bg-orange-400 p-20 rounded-lg"></div>
+            <div className="grid grid-cols-3 mx-20 mb-10">
+              <div className="bg-slate-700 border-r-2 rounded-l-xl">
                 <div className="text-center my-10">
                   <p>Hello this is my eduction descripcion</p>
                 </div>
@@ -60,8 +64,7 @@ function Skills() {
                   </button>
                 </div>
               </div>
-              <div className="bg-green-400 rounded-lg">
-                <div className="my-10 mx-10 bg-orange-400 p-20 rounded-lg"></div>
+              <div className="bg-slate-700">
                 <div className="text-center my-10">
                   <p>Hello this is my eduction descripcion</p>
                 </div>
@@ -71,9 +74,8 @@ function Skills() {
                   </button>
                 </div>
               </div>
-              <div className="bg-blue-400 rounded-lg">
-                <div className="my-10 mx-10 bg-orange-400 p-20 rounded-lg"></div>
-                <div className="text-center my-10">
+              <div className="bg-slate-700 border-l-2 rounded-r-xl">
+                <div className="text-center my-10 ">
                   <p>Hello this is my eduction descripcion</p>
                 </div>
                 <div className="text-right mb-10 mr-10">

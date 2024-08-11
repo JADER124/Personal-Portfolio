@@ -1,4 +1,5 @@
 import React from "react";
+import perfil from "../imgs/perfil.jpg";
 
 function Home() {
   return (
@@ -21,10 +22,10 @@ function Home() {
           </div>
         </div>
         <div className="w-1/2 my-auto">
-          <div className="h-1/2 ml-44">
+          <div className="h-1/2 ml-44 ">
             <img
-              className="rounded-full bg-cover bg-center w-[400px] h-[400px]  "
-              src="https://cdn.pixabay.com/photo/2021/11/20/05/15/car-6810885_1280.jpg"
+              className="rounded-full bg-cover bg-center w-[400px] h-[400px] border-yellow-200 border-y-2 shadow-lg shadow-cyan-600 "
+              src={perfil}
             />
           </div>
         </div>
