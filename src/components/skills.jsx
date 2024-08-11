@@ -1,4 +1,8 @@
 import React from "react";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaReact,FaNodeJs } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 
 function Skills() {
   return (
@@ -12,22 +16,32 @@ function Skills() {
           </div>
         </div>
         <div className="mb-10">
-          <div className="mx-96 p-7 bg-orange-400 rounded-lg ">
+          <div className="mx-96 p-7 bg-white rounded-lg ">
             <ul className="flex gap-10 justify-between mx-10">
               <li>
-                <div className="rounded-full bg-green-400 p-12"></div>
+                <div className="rounded-full bg-black p-6 shadow-lg shadow-yellow-500">
+                <IoLogoJavascript className="size-12 " />
+                </div>
               </li>
               <li>
-                <div className="rounded-full bg-green-400 p-12"></div>
+                <div className="rounded-full bg-black p-6 shadow-lg shadow-blue-800">
+                <FaReact className="size-12" />
+                </div>
               </li>
               <li>
-                <div className="rounded-full bg-green-400 p-12"></div>
+                <div className="rounded-full bg-black p-6 shadow-lg shadow-teal-400 ">
+                <RiTailwindCssFill className="size-12" />
+                </div>
               </li>
               <li>
-                <div className="rounded-full bg-green-400 p-12"></div>
+                <div className="rounded-full bg-black p-6 shadow-lg shadow-green-800">
+                <FaNodeJs className="size-12"/>
+                </div>
               </li>
               <li>
-                <div className="rounded-full bg-green-400 p-12"></div>
+                <div className="rounded-full bg-black p-6 shadow-lg shadow-sky-500">
+                <SiTypescript className="size-12" />
+                </div>
               </li>
             </ul>
           </div>

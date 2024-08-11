@@ -11,7 +11,7 @@ function Education() {
         </div>
         <div>
           <div className="grid grid-cols-3 mx-20 gap-10 mb-10">
-            <div className="bg-slate-200 rounded-lg">
+            <div className="bg-cyan-200 rounded-lg">
               <div className="my-10 mx-10 bg-orange-400 p-20 rounded-lg"></div>
               <div className="text-center my-10">
               <p className="text-3xl font-bold italic text-black">Tecnica Profesional En Sistemas</p>
@@ -24,7 +24,7 @@ function Education() {
                 </button>
               </div>
             </div>
-            <div className="bg-green-400 rounded-lg">
+            <div className="bg-cyan-200 rounded-lg">
               <div className="my-10 mx-10 bg-orange-400 p-20 rounded-lg"></div>
               <div className="text-center my-10">
                 <p className="text-3xl font-bold italic text-black">Tecnología En Sistemas</p>
@@ -37,7 +37,7 @@ function Education() {
                 </button>
               </div>
             </div>
-            <div className="bg-blue-400 rounded-lg">
+            <div className="bg-cyan-200 rounded-lg">
               <div className="my-10 mx-10 bg-orange-400 p-20 rounded-lg"></div>
               <div className="text-center my-10">
               <p className="text-3xl font-bold italic text-black">Ingeniería En Desarrollo De Software</p>

@@ -1,5 +1,7 @@
 import React from "react";
 import prom from "../imgs/prom.png";
+import toDo from "../imgs/toDo.jpg";
+
 
 function Projects() {
   return (
@@ -13,11 +15,11 @@ function Projects() {
         <div>
           <div class="grid grid-rows-8 grid-col-7 gap-4 mx-36 my-20 ">
             <div class="relative row-start-1 row-end-8 col-start-1 col-end-3 rounded-xl ">
-              <img src={prom} className="w-full bg-cover h-full rounded-xl " />
+              <img src={toDo} className="w-full bg-cover h-full rounded-xl " />
               <div class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-t from-black from-30% to-transparent  bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-75 ">
                 <div className="  h-full w-full text-center mt-[530px]">
                   <a href="#">
-                    <p className="text-4xl font-roboto font-bold text-cyan-200">MyAverage</p>
+                    <p className="text-4xl font-roboto font-bold text-cyan-200">ToDoList</p>
                   </a>
                 </div>
               </div>

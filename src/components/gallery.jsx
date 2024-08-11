@@ -7,8 +7,8 @@ import { Autoplay, EffectCube, Pagination } from "swiper/modules";
 
 function Gallery() {
   return (
-    <div className="">
-      <div className="border-b-2 border-black bg-white">
+    <div className="m-16">
+      <div className="border-b-2 border-black bg-white rounded-3xl">
         <div>
           <div className="align-middle text-center">
             <h1 className="text-5xl font-bold p-10 text-black">Gallery</h1>
