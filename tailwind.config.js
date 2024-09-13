@@ -7,6 +7,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
     fontFamily:{
       'roboto': 'Roboto',
     },
@@ -34,6 +35,14 @@ export default {
         typing: "typing 4s steps(20) infinite alternate, blink .7s infinite"
       }
     },
+  },
+  colors: {
+    transparent: 'transparent',
+    current: 'currentColor',
+    blueDark: "#0A192F",
+    grayLight: "#E6F1FF",
+    blueElectric: "#64FFDA",
+    redAcent: "#FF5733"
   },
   plugins: [
     require('tailwindcss-animated')

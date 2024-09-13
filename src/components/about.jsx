@@ -13,7 +13,7 @@ function About() {
         <div>
           <div className=" bg-slate-700 rounded-3xl align-middle text-center mx-52 mb-10">
             <p className="text-xl p-28">
-              Hi, i am Jhon Jader Lopez , i am a software developer and a great personal trainer....
+            Aunque mi enfoque es claramente técnico, disfruto enormemente del proceso creativo que conlleva el desarrollo de software. Me motiva encontrar soluciones eficientes y ver cómo cada línea de código se convierte en algo tangible y útil para los demás. Me considero alguien adaptable y siempre dispuesto a aprender nuevas tecnologías y herramientas que me permitan mejorar en cada proyecto. Trabajar en equipo y compartir conocimientos es algo que valoro mucho, porque creo que las mejores ideas surgen de la colaboración.
             </p>
           </div>
         </div>

@@ -56,7 +56,9 @@ function Skills() {
             <div className="grid grid-cols-3 mx-20 mb-10">
               <div className="bg-slate-700 border-r-2 rounded-l-xl">
                 <div className="text-center my-10">
-                  <p>Hello this is my eduction descripcion</p>
+                  <h1 className="text-2xl pb-7">Lenguajes de programacion</h1>
+                  <p>JavaScript</p>
+                  <p>Python</p>
                 </div>
                 <div className="text-right mb-10 mr-10">
                   <button className="bg-gray-500 py-3 px-10 rounded-lg">
@@ -66,7 +68,13 @@ function Skills() {
               </div>
               <div className="bg-slate-700">
                 <div className="text-center my-10">
-                  <p>Hello this is my eduction descripcion</p>
+                <h1 className="text-2xl pb-7">Frameworks y Librerias</h1>
+                  <p>React</p>
+                  <p>Tailwind CSS</p>
+                  <p>Bootstrap</p>
+                <h1 className="text-2xl py-7">Bases de datos</h1>
+                <p>Firebase</p>
+                <p>SQL Server</p>
                 </div>
                 <div className="text-right mb-10 mr-10">
                   <button className="bg-gray-500 py-3 px-10 rounded-lg">
@@ -76,7 +84,13 @@ function Skills() {
               </div>
               <div className="bg-slate-700 border-l-2 rounded-r-xl">
                 <div className="text-center my-10 ">
-                  <p>Hello this is my eduction descripcion</p>
+                  <h1 className="text-2xl pb-7">Otras herramientas</h1>
+                  <p>Vs Code</p>
+                  <p>Git & GitHub</p>
+                  <p>Pycharm</p>
+                  <p>Trello</p>
+                  <p>Bootstrap</p>
+
                 </div>
                 <div className="text-right mb-10 mr-10">
                   <button className="bg-gray-500 py-3 px-10 rounded-lg">

@@ -1,6 +1,7 @@
 import React from "react";
-import { FaInstagram,FaFacebook,FaGithub} from "react-icons/fa";
+import { FaInstagram,FaFacebook,FaGithub,FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { MdMarkEmailRead } from "react-icons/md";
 function Contact() {
   return (
     <div>
@@ -25,25 +26,28 @@ function Contact() {
           </div>
         </div>
         <div className="mb-10">
-          <div className="mx-[575px] p-1 bg-orange-400 rounded-lg ">
+          <div className="w-1/5 mx-auto p-1 bg-slate-700 rounded-lg ">
             <ul className="flex gap-1 justify-between ">
               <li>
-                <div className="rounded-full bg-green-400 p-6">
-                <FaXTwitter className="w-10"/>
+                <div className="rounded-full bg-cyan-400 p-4 mx-4 my-1">
+                <a href="https://www.linkedin.com/in/jhon-lopez-blandon-5751a6236/" target="_blank">
+                <FaLinkedin className="text-3xl text-black"/>
+                </a>
                 </div>
               </li>
               <li>
-                <div className="rounded-full bg-green-400 p-6"></div>
+                <div className="rounded-full bg-cyan-400 p-4 mx-4 my-1">
+                 <a href="https://github.com/JADER124" target="_blank">
+                 <FaGithub className="text-3xl text-black"/>
+                 </a>
+                </div>
               </li>
               <li>
-                <div className="rounded-full bg-green-400 p-6"></div>
+                <div className="rounded-full bg-cyan-400 p-4 mx-4 my-1">
+                  <MdMarkEmailRead className="text-3xl text-black"/>
+                </div>
               </li>
-              <li>
-                <div className="rounded-full bg-green-400 p-6"></div>
-              </li>
-              <li>
-                <div className="rounded-full bg-green-400 p-6"></div>
-              </li>
+          
             </ul>
           </div>
         </div>
