@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../../src/index.css";
+import icon from "../imgs/icon.png"
 
 function NavBar() {
   const [scroll, setScroll] = useState(false);
@@ -11,9 +12,9 @@ function NavBar() {
   });
   return (
     <div className={`headerMain ${scroll ? "sticky" : ""}`}>
-      <div className="mx-auto p-4 bg-gradient-to-b from-black to-black/50">
+      <div className="mx-auto p-4 bg-gradient-to-b from-[#09090b] to-[#09090b]/50">
         <ul className="flex justify-between">
-          <li>Logo</li>
+          <li>Icon</li>
           <div className="flex gap-4 font-bold ">
             <li>
               <a href="#home">Home</a>
