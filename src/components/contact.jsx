@@ -8,7 +8,7 @@ function Contact() {
       <div className="border-b-2 border-gray-800" id="contact">
         <div>
           <div className="align-middle text-center my-10">
-            <h1 className="text-5xl font-bold capitalize p-10">Contact Me</h1>
+            <h1 className="text-5xl font-bold capitalize p-10 bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">Contact Me</h1>
           </div>
         </div>
         <div>
