@@ -8,7 +8,7 @@ function Home() {
     <div className="" id="home">
       {/*bg-gradient-to-br from-cyan-600   to-zinc-900 to-80% before:h-96 before:w-96 before:bg-black before:absolute before:rounded-br-full before:bg-gradient-to-r before:from-slate-900 before:to-cyan-900*/}
       <div className="flex max-h-max text-center ">
-        <div className="w-1/2 z-30">
+        <div className="w-1/2">
           <div className="px-10 py-4 text-left my-52 ml-20">
             {/* Texto con efecto de superposición */}
             <h1 className="text-6xl -mt-7 ml-10 opacity-80 p-2 font-roboto font-bold text-cyan-50/15 absolute">

@@ -9,6 +9,7 @@ import About from "./components/about";
 import Gallery from "./components/gallery";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Experience from "./components/experience";
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
       <NavBar/>
       <Home/>
       <Presentation/>
+      <About/>
       <Projects/>
       <Skills/>
       <Education/>
-      <About/>
+      <Experience/>
       {/*<Gallery/>*/}
       <Contact/>
       <Footer/>

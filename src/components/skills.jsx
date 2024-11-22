@@ -21,7 +21,7 @@ function Skills() {
           </div>
         </div>
         <div className="mb-10">
-          <div className="mx-72 p-7 bg-white rounded-lg ">
+          <div className="mx-72 p-7 bg-bg-black/20 rounded-lg ">
             <ul className="flex gap-10 justify-between mx-10">
               <li>
                 <div className="rounded-full bg-black p-6 shadow-lg shadow-yellow-500">

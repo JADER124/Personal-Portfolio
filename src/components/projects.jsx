@@ -1,7 +1,7 @@
 import React from "react";
 import prom from "../imgs/prom.png";
 import toDo from "../imgs/toDo.jpg";
-
+import { FaStar } from "react-icons/fa6";
 
 function Projects() {
   return (
