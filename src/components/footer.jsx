@@ -1,29 +1,31 @@
 import React from "react";
 
-
 const currentYear = new Date().getFullYear();
+
 function Footer() {
   return (
-    <div>
-      <footer className="relative bg-[#09090b] pt-8 pb-6">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div className="text-sm text-gray-500 font-semibold py-1">
-                Copyright © <span id="get-current-year">2024</span> <span>by </span>
-                <a
-                  href="https://github.com/JADER124"
-                  className="text-gray-500 hover:text-gray-800 underline"
-                  target="_blank"
-                >
-                 Jader Lopez
-                </a>
-              </div>
-            </div>
-          </div>
+    <footer className="relative bg-[#09090b] py-6 md:py-8 lg:py-10">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* Copyright centrado */}
+        <div className="text-center">
+          <p className="text-sm md:text-base text-gray-400 font-medium">
+            Copyright © 
+            <span className="mx-1 text-white font-semibold">{currentYear}</span>
+            by 
+            <a
+              href="https://github.com/JADER124"
+              className="ml-1 text-blue-400 hover:text-blue-300 underline underline-offset-2 hover:underline-offset-4 transition-all duration-300 font-semibold"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Jader Lopez
+            </a>
+          </p>
         </div>
-      </footer>
-    </div>
+
+      </div>
+    </footer>
   );
 }
 

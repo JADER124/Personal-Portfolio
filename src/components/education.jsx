@@ -2,7 +2,7 @@ import React from "react";
 
 function Education() {
   return (
-    <div>
+  <div data-aos="fade-up">
       <div className="bg-black/20" id="education">
         {/* Education Section */}
         <section id="education" className="py-20 px-4 ">

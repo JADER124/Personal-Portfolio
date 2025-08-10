@@ -3,7 +3,7 @@ import React,{useState} from "react";
 function About() {
   const [showMore, setShowMore] = useState(false);
   return (
-    <div>
+    <div data-aos="fade-up">
       {/* About Me Section */}
       <section id="about" className="py-20 px-4 ">
         <div className="max-w-6xl mx-auto">

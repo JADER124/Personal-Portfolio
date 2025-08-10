@@ -1,33 +1,29 @@
 import React from "react";
-import perfil from "../imgs/perfil.jpg";
+import perfil from "../assets/images/perfil.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 function Home() {
   return (
-    <div className="" id="home">
-      {/*bg-gradient-to-br from-cyan-600   to-zinc-900 to-80% before:h-96 before:w-96 before:bg-black before:absolute before:rounded-br-full before:bg-gradient-to-r before:from-slate-900 before:to-cyan-900*/}
-      <div className="flex max-h-max text-center ">
-        <div className="w-1/2">
-          <div className="px-10 py-4 text-left my-52 ml-20">
+    <div className="bg-gradient-to-b from-[#09090b] " id="home">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center max-w-7xl mx-auto px-4 md:px-8 gap-8 min-h-[80vh]">
+        <div className="w-full md:w-1/2 flex justify-center md:justify-start">
+          <div className="px-2 md:px-10 py-4 text-left md:my-32 md:ml-10 w-full max-w-xl relative">
             {/* Texto con efecto de superposición */}
-            <h1 className="text-6xl -mt-7 ml-10 opacity-80 p-2 font-roboto font-bold text-cyan-50/15 absolute">
-              Jhon&nbsp;Jader&nbsp;López
-            </h1>
-            <h1 className="text-6xl p-2 font-roboto font-bold animate-typing overflow-hidden text-cyan-50">
+            <h1 className="text-4xl md:text-6xl font-roboto font-bold animate-typing overflow-hidden text-cyan-50 mb-2">
               Jhon&nbsp;Jader&nbsp;López
             </h1>
 
             {/* Subtítulos */}
-            <p className="text-xl p-2 font-roboto font-bold text-cyan-200 bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
+            <p className="text-lg md:text-xl font-roboto font-bold text-cyan-200 bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text mb-1">
               Software&nbsp;Developer
             </p>
-            <p className="p-2 font-bold text-gray-300">
+            <p className="text-base md:text-lg font-bold text-gray-300 mb-4">
               Desarrollador apasionado por crear soluciones innovadoras
             </p>
 
             {/* Iconos de redes sociales */}
-            <div className="flex space-x-4 mt-6 ml-2">
+            <div className="flex space-x-4 mt-4 md:mt-6 ml-0 md:ml-2 justify-center md:justify-start">
               <a
                 href="#"
                 className="p-2 rounded-full bg-gray-900 hover:bg-gray-900 transition-colors duration-300 text-blue-600 hover:text-blue-300"
@@ -49,17 +45,13 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="w-1/2 my-auto">
-          <div className="ml-44 relative w-[400px] h-[400px]">
-            {/* Efecto de resplandor ajustado para centrarse con la imagen */}
+        <div className="w-full md:w-1/2 flex justify-center items-center mb-8 md:mb-0">
+          <div className="relative w-48 h-48 md:w-80 md:h-80">
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur-2xl opacity-40 animate-pulse"></div>
-
             <img
               src={perfil}
               alt="Tu foto de perfil"
-              className="relative w-full h-full rounded-full bg-cover bg-center 
-                 border-y-2 border-cyan-200 shadow-lg shadow-black 
-                 object-cover"
+              className="relative w-full h-full rounded-full bg-cover bg-center border-y-2 border-cyan-200 shadow-lg shadow-black object-cover"
             />
           </div>
         </div>
