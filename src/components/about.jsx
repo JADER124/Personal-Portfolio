@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 
 function About() {
   const [showMore, setShowMore] = useState(false);
@@ -15,36 +15,53 @@ function About() {
               </h1>
               <div className="prose prose-invert">
                 <p className="text-lg text-gray-300 leading-relaxed ">
-                  Mi viaje en el mundo del desarrollo comenzó con una curiosidad
-                  insaciable por entender cómo funcionan las cosas. Desde
-                  pequeño, desarmaba dispositivos solo para ver sus componentes,
-                  una curiosidad que eventualmente evolucionó hacia el software.
+                  Mi camino en el desarrollo de software nació de una curiosidad
+                  genuina por entender cómo funcionan las cosas. Desde pequeño
+                  me gustaba explorar y desarmar dispositivos, y con el tiempo
+                  descubrí que esa misma inquietud podía llevarme al mundo del
+                  software, donde encontré un espacio infinito para aprender y
+                  crear.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed mt-4">
-                  Fuera del código, soy un entusiasta de [tus hobbies, por
-                  ejemplo: la fotografía, los videojuegos, el senderismo]. Creo
-                  firmemente que estas pasiones complementan mi trabajo como
-                  desarrollador, aportando creatividad y perspectivas únicas a
-                  cada proyecto.
+                  Fuera del código, disfruto de actividades que me permiten
+                  desconectarme y ver el mundo desde otras perspectivas, como la
+                  tecnología, los videojuegos o simplemente explorar nuevas
+                  ideas. Creo que estos intereses alimentan mi creatividad y me
+                  ayudan a aportar una mirada diferente a cada proyecto.
                 </p>
 
-                <div className={`transition-all duration-500 ease-in-out ${showMore ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'} overflow-hidden`}>
-                <div className="mt-4 space-y-4">
-                  <p className="text-lg text-gray-300 leading-relaxed">
-                  Aunque mi enfoque es claramente técnico, disfruto enormemente del proceso creativo que conlleva el desarrollo de software. Me apasiona crear experiencias digitales que no solo funcionen perfectamente, sino que también sean intuitivas y agradables para el usuario.
-                  </p>
-                  <p className="text-lg text-gray-300 leading-relaxed">
-                    Constantemente me mantengo actualizado con las últimas tecnologías y tendencias en el mundo del desarrollo, participando en comunidades online y compartiendo conocimientos con otros desarrolladores.
-                  </p>
+                <div
+                  className={`transition-all duration-500 ease-in-out ${
+                    showMore ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                  } overflow-hidden`}
+                >
+                  <div className="mt-4 space-y-4">
+                    <p className="text-lg text-gray-300 leading-relaxed">
+                      Aunque mi trabajo está muy ligado a la parte técnica, lo
+                      que realmente me apasiona es el proceso creativo:
+                      convertir una idea en una solución útil y amigable para
+                      las personas. Para mí, el desarrollo de software no es
+                      solo programar, sino construir experiencias digitales que
+                      funcionen bien y al mismo tiempo sean fáciles e intuitivas
+                      de usar.
+                    </p>
+                    <p className="text-lg text-gray-300 leading-relaxed">
+                      Me gusta mantenerme en constante aprendizaje, explorando
+                      nuevas tecnologías, servicios en la nube y tendencias del
+                      sector. También disfruto compartir lo que aprendo y
+                      conectarme con otros desarrolladores, porque estoy
+                      convencido de que el conocimiento se multiplica cuando se
+                      comparte.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              
-              <button 
-                onClick={() => setShowMore(!showMore)}
-                className="text-sm mt-4 font-medium bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text hover:opacity-80 transition-opacity"
-              >
-                {showMore ? 'Ver menos...' : 'Ver más...'}
-              </button>
+
+                <button
+                  onClick={() => setShowMore(!showMore)}
+                  className="text-sm mt-4 font-medium bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text hover:opacity-80 transition-opacity"
+                >
+                  {showMore ? "Ver menos..." : "Ver más..."}
+                </button>
                 <div className="flex flex-wrap gap-4 mt-6">
                   <span className="px-4 py-2 bg-gray-700 rounded-full text-sm text-blue-300">
                     Autodidacta

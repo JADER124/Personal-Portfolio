@@ -19,19 +19,22 @@ function Home() {
               Software&nbsp;Developer
             </p>
             <p className="text-base md:text-lg font-bold text-gray-300 mb-4">
-              Desarrollador apasionado por crear soluciones innovadoras
+              Apasionado por el desarrollo de software<br></br>
+               la nube y la innovación
             </p>
 
             {/* Iconos de redes sociales */}
             <div className="flex space-x-4 mt-4 md:mt-6 ml-0 md:ml-2 justify-center md:justify-start">
               <a
-                href="#"
+                href="https://github.com/JADER124"
+                target="_blank"
                 className="p-2 rounded-full bg-gray-900 hover:bg-gray-900 transition-colors duration-300 text-blue-600 hover:text-blue-300"
               >
                 <FaGithub className="w-6 h-6" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/jhon-jader-lopez-blandon-5751a6236/"
+                target="_blank"
                 className="p-2 rounded-full bg-gray-900 hover:bg-gray-900 transition-colors duration-300 text-blue-600 hover:text-blue-300"
               >
                 <FaLinkedin className="w-6 h-6" />
