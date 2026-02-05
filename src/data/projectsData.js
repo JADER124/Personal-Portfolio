@@ -9,7 +9,7 @@ export const projectsData = [
     title: "ToDoList",
     description: "Aplicación para gestionar tareas diarias con interfaz intuitiva y soporte para múltiples listas.",
     technologies: ["React", "Tailwind", "Vite"],
-    link: "#",
+    link: "/projects/todo",
   },
   {
     id: "myaverage",

@@ -52,16 +52,18 @@ function Projects() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black from-55% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
               <div className="h-full w-full flex items-end justify-center pb-8">
-                <Link
-                  to="/projects/myaverage"
+                <a
+                  href="https://mipromedio.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="transform hover:scale-105 transition-transform flex items-center gap-2"
                   aria-label="Open MyAverage site"
                 >
                   <p className="text-3xl xl:text-4xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     MyAverage
                   </p>
-                  <ExternalLink className="w-6 h-6" />
-                </Link>
+                  <ExternalLink className="w-6 h-6 text-gray-300" />
+                </a>
               </div>
             </div>
           </div>
@@ -76,11 +78,16 @@ function Projects() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
               <div className="h-full w-full flex items-end justify-center pb-6">
-                <Link to="/projects/myaverage" className="transform hover:scale-105 transition-transform">
+                <a
+                  href="https://mipromedio.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transform hover:scale-105 transition-transform"
+                >
                   <p className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     MyAverage
                   </p>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -95,11 +102,16 @@ function Projects() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
               <div className="h-full w-full flex items-end justify-center pb-4">
-                <Link to="/projects/myaverage" className="transform hover:scale-105 transition-transform">
+                <a
+                  href="https://mipromedio.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transform hover:scale-105 transition-transform"
+                >
                   <p className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     MyAverage
                   </p>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -114,11 +126,16 @@ function Projects() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
               <div className="h-full w-full flex items-end justify-center pb-4">
-                <Link to="/projects/myaverage" className="transform hover:scale-105 transition-transform">
+                <a
+                  href="https://mipromedio.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transform hover:scale-105 transition-transform"
+                >
                   <p className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     MyAverage
                   </p>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -136,11 +153,15 @@ function Projects() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
               <div className="h-full w-full flex items-end justify-center pb-6">
-                <a href="#" className="transform hover:scale-105 transition-transform">
+                <Link
+                  to="/projects/todo"
+                  className="transform hover:scale-105 transition-transform flex items-center gap-2"
+                >
                   <p className="text-3xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     ToDoList
                   </p>
-                </a>
+                  <Star className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                </Link>
               </div>
             </div>
           </div>
@@ -158,12 +179,13 @@ function Projects() {
                 <a
                   href="https://mipromedio.site/"
                   target="_blank"
-                  rel="noreferrer"
-                  className="transform hover:scale-105 transition-transform"
+                  rel="noopener noreferrer"
+                  className="transform hover:scale-105 transition-transform flex items-center gap-2"
                 >
                   <p className="text-3xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     MyAverage
                   </p>
+                  <ExternalLink className="w-5 h-5 text-gray-300" />
                 </a>
               </div>
             </div>
@@ -179,7 +201,12 @@ function Projects() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
               <div className="h-full w-full flex items-end justify-center pb-4">
-                <a href="#" className="transform hover:scale-105 transition-transform">
+                <a
+                  href="https://mipromedio.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transform hover:scale-105 transition-transform"
+                >
                   <p className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     MyAverage
                   </p>
@@ -197,7 +224,12 @@ function Projects() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
               <div className="h-full w-full flex items-end justify-center pb-4">
-                <a href="#" className="transform hover:scale-105 transition-transform">
+                <a
+                  href="https://mipromedio.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transform hover:scale-105 transition-transform"
+                >
                   <p className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     MyAverage
                   </p>
@@ -215,7 +247,12 @@ function Projects() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
               <div className="h-full w-full flex items-end justify-center pb-4">
-                <a href="#" className="transform hover:scale-105 transition-transform">
+                <a
+                  href="https://mipromedio.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transform hover:scale-105 transition-transform"
+                >
                   <p className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     MyAverage
                   </p>
@@ -237,11 +274,15 @@ function Projects() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
               <div className="h-full w-full flex items-end justify-center pb-6">
-                <a href="#" className="transform hover:scale-105 transition-transform">
+                <Link
+                  to="/projects/todo"
+                  className="transform hover:scale-105 transition-transform flex items-center gap-2"
+                >
                   <p className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     ToDoList
                   </p>
-                </a>
+                  <Star className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                </Link>
               </div>
             </div>
           </div>
@@ -260,7 +301,7 @@ function Projects() {
                   <a
                     href="https://mipromedio.site/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="transform hover:scale-105 transition-transform"
                   >
                     <p className="text-lg font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
@@ -280,7 +321,12 @@ function Projects() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
                 <div className="h-full w-full flex items-end justify-center pb-4">
-                  <a href="#" className="transform hover:scale-105 transition-transform">
+                  <a
+                    href="https://mipromedio.site/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transform hover:scale-105 transition-transform"
+                  >
                     <p className="text-lg font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                       MyAverage
                     </p>
@@ -299,7 +345,12 @@ function Projects() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
               <div className="h-full w-full flex items-end justify-center pb-4">
-                <a href="#" className="transform hover:scale-105 transition-transform">
+                <a
+                  href="https://mipromedio.site/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transform hover:scale-105 transition-transform"
+                >
                   <p className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                     MyAverage
                   </p>
@@ -318,7 +369,12 @@ function Projects() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
                 <div className="h-full w-full flex items-end justify-center pb-3">
-                  <a href="#" className="transform hover:scale-105 transition-transform">
+                  <a
+                    href="https://mipromedio.site/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transform hover:scale-105 transition-transform"
+                  >
                     <p className="text-sm font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                       MyAverage
                     </p>
@@ -336,7 +392,12 @@ function Projects() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black from-30% to-transparent opacity-0 transition duration-300 ease-in-out group-hover:opacity-75 rounded-xl">
                 <div className="h-full w-full flex items-end justify-center pb-3">
-                  <a href="#" className="transform hover:scale-105 transition-transform">
+                  <a
+                    href="https://mipromedio.site/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transform hover:scale-105 transition-transform"
+                  >
                     <p className="text-sm font-bold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
                       MyAverage
                     </p>
