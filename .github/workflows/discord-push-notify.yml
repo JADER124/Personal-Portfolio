@@ -1,0 +1,30 @@
+name: Notify Discord on Push
+
+'on':
+  push:
+    branches:
+      - master
+      - develop
+      - 'feature/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send message to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ github.ref_name }}
+          ACTOR: ${{ github.actor }}
+          COMPARE_URL: ${{ github.event.compare }}
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
+        run: |
+          payload=$(cat <<EOF
+          {
+            "content": "🚀 **Push detectado**\n**Repo:** ${REPO}\n**Rama:** ${BRANCH}\n**Autor:** ${ACTOR}\n**Último commit:** ${COMMIT_MSG}\n🔗 ${COMPARE_URL}"
+          }
+          EOF
+          )
+          curl -H "Content-Type: application/json" -X POST -d "$payload" "$DISCORD_WEBHOOK_URL"
