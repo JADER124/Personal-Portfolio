@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Send message to Discord
+      - name: Send Discord embed
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           REPO: ${{ github.repository }}
@@ -20,11 +20,27 @@ jobs:
           ACTOR: ${{ github.actor }}
           COMPARE_URL: ${{ github.event.compare }}
           COMMIT_MSG: ${{ github.event.head_commit.message }}
+          COMMIT_URL: ${{ github.event.head_commit.url }}
         run: |
-          payload=$(cat <<EOF
-          {
-            "content": "🚀 **Push detectado**\n**Repo:** ${REPO}\n**Rama:** ${BRANCH}\n**Autor:** ${ACTOR}\n**Último commit:** ${COMMIT_MSG}\n🔗 ${COMPARE_URL}"
-          }
-          EOF
-          )
-          curl -H "Content-Type: application/json" -X POST -d "$payload" "$DISCORD_WEBHOOK_URL"
+          jq -n \
+            --arg repo "$REPO" \
+            --arg branch "$BRANCH" \
+            --arg actor "$ACTOR" \
+            --arg compare "$COMPARE_URL" \
+            --arg msg "$COMMIT_MSG" \
+            '{
+              "embeds": [
+                {
+                  "title": "🚀 Push detectado",
+                  "url": $compare,
+                  "description": ("**Último commit:**\n" + $msg),
+                  "fields": [
+                    {"name": "Repo", "value": $repo, "inline": true},
+                    {"name": "Rama", "value": $branch, "inline": true},
+                    {"name": "Autor", "value": $actor, "inline": true},
+                    {"name": "Cambios", "value": ("[Ver compare](" + $compare + ")"), "inline": true}
+                  ]
+                }
+              ]
+            }' \
+          | curl -sS -H "Content-Type: application/json" -X POST -d @- "$DISCORD_WEBHOOK_URL"
